@@ -1,0 +1,6 @@
+framework module Pods_Olympic_Athletes_Olympic_AthletesUITests {
+  umbrella header "Pods-Olympic Athletes-Olympic AthletesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

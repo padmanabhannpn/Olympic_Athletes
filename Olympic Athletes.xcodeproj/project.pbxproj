@@ -9,13 +9,39 @@
 /* Begin PBXBuildFile section */
 		248E7EB32AAEF2D300DA4477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E7EB22AAEF2D300DA4477 /* AppDelegate.swift */; };
 		248E7EB52AAEF2D300DA4477 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E7EB42AAEF2D300DA4477 /* SceneDelegate.swift */; };
-		248E7EB72AAEF2D300DA4477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E7EB62AAEF2D300DA4477 /* ViewController.swift */; };
 		248E7EBA2AAEF2D300DA4477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248E7EB82AAEF2D300DA4477 /* Main.storyboard */; };
 		248E7EBC2AAEF2D500DA4477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248E7EBB2AAEF2D500DA4477 /* Assets.xcassets */; };
-		248E7EBF2AAEF2D500DA4477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248E7EBD2AAEF2D500DA4477 /* LaunchScreen.storyboard */; };
 		248E7ECA2AAEF2D500DA4477 /* Olympic_AthletesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E7EC92AAEF2D500DA4477 /* Olympic_AthletesTests.swift */; };
 		248E7ED42AAEF2D500DA4477 /* Olympic_AthletesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E7ED32AAEF2D500DA4477 /* Olympic_AthletesUITests.swift */; };
 		248E7ED62AAEF2D500DA4477 /* Olympic_AthletesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E7ED52AAEF2D500DA4477 /* Olympic_AthletesUITestsLaunchTests.swift */; };
+		248E7EF72AAEF54900DA4477 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E7EF62AAEF54900DA4477 /* SplashScreen.swift */; };
+		248E7EF92AAEF59F00DA4477 /* ConnectionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E7EF82AAEF59F00DA4477 /* ConnectionCheck.swift */; };
+		248E7EFB2AAEF5B700DA4477 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E7EFA2AAEF5B700DA4477 /* BaseAPI.swift */; };
+		248E7EFD2AAEF5C000DA4477 /* ConstantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E7EFC2AAEF5C000DA4477 /* ConstantClass.swift */; };
+		248E7EFF2AAEF74200DA4477 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E7EFE2AAEF74200DA4477 /* APIManager.swift */; };
+		248E7F022AAEF8FD00DA4477 /* LocalizableStringFile in Resources */ = {isa = PBXBuildFile; fileRef = 248E7F012AAEF8FD00DA4477 /* LocalizableStringFile */; };
+		248E7F042AAF002600DA4477 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E7F032AAF002600DA4477 /* StringExtensions.swift */; };
+		24B6EABB2AAF027700DE4CE0 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EABA2AAF027700DE4CE0 /* HomePage.swift */; };
+		24B6EAC12AAF1F4D00DE4CE0 /* AthletesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EAC02AAF1F4D00DE4CE0 /* AthletesDetails.swift */; };
+		24B6EAC32AAF26A100DE4CE0 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EAC22AAF26A100DE4CE0 /* ImageExtension.swift */; };
+		24B6EAC62AAF327600DE4CE0 /* AthletesDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EAC52AAF327600DE4CE0 /* AthletesDetailsModel.swift */; };
+		24B6EAC92AAF358400DE4CE0 /* AthletesDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EAC82AAF358400DE4CE0 /* AthletesDetailsViewModel.swift */; };
+		24B6EACB2AAF492F00DE4CE0 /* AthletesDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EACA2AAF492F00DE4CE0 /* AthletesDetailsCell.swift */; };
+		24B6EACD2AAF593B00DE4CE0 /* AthletesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EACC2AAF593B00DE4CE0 /* AthletesResult.swift */; };
+		24B6EACF2AAF5EB900DE4CE0 /* AthletesMedalsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EACE2AAF5EB900DE4CE0 /* AthletesMedalsCell.swift */; };
+		24B6EAD12AAF64A300DE4CE0 /* MedalsTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EAD02AAF64A300DE4CE0 /* MedalsTitleCell.swift */; };
+		24B6EAD32AAF66FE00DE4CE0 /* BioTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EAD22AAF66FE00DE4CE0 /* BioTitleCell.swift */; };
+		24B6EAD52AAF67D400DE4CE0 /* BioDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EAD42AAF67D400DE4CE0 /* BioDetailsCell.swift */; };
+		24B6EAD72AAF6F9000DE4CE0 /* AthletesTabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EAD62AAF6F9000DE4CE0 /* AthletesTabelCell.swift */; };
+		24B6EAD92AAF6FD800DE4CE0 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EAD82AAF6FD800DE4CE0 /* HomePageViewModel.swift */; };
+		24B6EADB2AAF70C400DE4CE0 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EADA2AAF70C400DE4CE0 /* GameModel.swift */; };
+		24B6EADD2AAF759600DE4CE0 /* AthletesCollectioViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EADC2AAF759600DE4CE0 /* AthletesCollectioViewCell.swift */; };
+		24B6EADF2AAF7A6C00DE4CE0 /* AthletesUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EADE2AAF7A6C00DE4CE0 /* AthletesUserModel.swift */; };
+		24B6EAE12AAF87F700DE4CE0 /* GlobalSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EAE02AAF87F700DE4CE0 /* GlobalSettings.swift */; };
+		24B6EAE32AB05F9800DE4CE0 /* AthletesListTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6EAE22AB05F9800DE4CE0 /* AthletesListTitleTableViewCell.swift */; };
+		6B07A1512495A5A9E9740DA4 /* Pods_Olympic_Athletes_Olympic_AthletesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E818FAFA65F401666EE1D25 /* Pods_Olympic_Athletes_Olympic_AthletesUITests.framework */; };
+		DA45E1F895B1DA249ED5AEC0 /* Pods_Olympic_AthletesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7339C6D12EB35F98C2782A9A /* Pods_Olympic_AthletesTests.framework */; };
+		EF5985B7F8A1AC110B2C30A9 /* Pods_Olympic_Athletes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD8AE05724CA66FD29812CB /* Pods_Olympic_Athletes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +62,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FD8AE05724CA66FD29812CB /* Pods_Olympic_Athletes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Olympic_Athletes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		248E7EAF2AAEF2D300DA4477 /* Olympic Athletes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Olympic Athletes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		248E7EB22AAEF2D300DA4477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		248E7EB42AAEF2D300DA4477 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		248E7EB62AAEF2D300DA4477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		248E7EB92AAEF2D300DA4477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		248E7EBB2AAEF2D500DA4477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		248E7EBE2AAEF2D500DA4477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		248E7EC02AAEF2D500DA4477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		248E7EC52AAEF2D500DA4477 /* Olympic AthletesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Olympic AthletesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		248E7EC92AAEF2D500DA4477 /* Olympic_AthletesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympic_AthletesTests.swift; sourceTree = "<group>"; };
 		248E7ECF2AAEF2D500DA4477 /* Olympic AthletesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Olympic AthletesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		248E7ED32AAEF2D500DA4477 /* Olympic_AthletesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympic_AthletesUITests.swift; sourceTree = "<group>"; };
 		248E7ED52AAEF2D500DA4477 /* Olympic_AthletesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympic_AthletesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		248E7EE82AAEF48A00DA4477 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		248E7EE92AAEF48A00DA4477 /* opensans_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = opensans_bold.ttf; sourceTree = "<group>"; };
+		248E7EEA2AAEF48A00DA4477 /* opensans_semibolditalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = opensans_semibolditalic.ttf; sourceTree = "<group>"; };
+		248E7EEB2AAEF48A00DA4477 /* opensans_bolditalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = opensans_bolditalic.ttf; sourceTree = "<group>"; };
+		248E7EEC2AAEF48A00DA4477 /* opensans_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = opensans_regular.ttf; sourceTree = "<group>"; };
+		248E7EED2AAEF48A00DA4477 /* opensans_light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = opensans_light.ttf; sourceTree = "<group>"; };
+		248E7EEE2AAEF48A00DA4477 /* opensans_italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = opensans_italic.ttf; sourceTree = "<group>"; };
+		248E7EEF2AAEF48A00DA4477 /* opensans_lightitalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = opensans_lightitalic.ttf; sourceTree = "<group>"; };
+		248E7EF02AAEF48A00DA4477 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		248E7EF12AAEF48A00DA4477 /* opensans_semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = opensans_semibold.ttf; sourceTree = "<group>"; };
+		248E7EF62AAEF54900DA4477 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		248E7EF82AAEF59F00DA4477 /* ConnectionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionCheck.swift; sourceTree = "<group>"; };
+		248E7EFA2AAEF5B700DA4477 /* BaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		248E7EFC2AAEF5C000DA4477 /* ConstantClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantClass.swift; sourceTree = "<group>"; };
+		248E7EFE2AAEF74200DA4477 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		248E7F012AAEF8FD00DA4477 /* LocalizableStringFile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LocalizableStringFile; sourceTree = "<group>"; };
+		248E7F032AAF002600DA4477 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		24B6EABA2AAF027700DE4CE0 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		24B6EABC2AAF1B6E00DE4CE0 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		24B6EAC02AAF1F4D00DE4CE0 /* AthletesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthletesDetails.swift; sourceTree = "<group>"; };
+		24B6EAC22AAF26A100DE4CE0 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		24B6EAC52AAF327600DE4CE0 /* AthletesDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthletesDetailsModel.swift; sourceTree = "<group>"; };
+		24B6EAC82AAF358400DE4CE0 /* AthletesDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthletesDetailsViewModel.swift; sourceTree = "<group>"; };
+		24B6EACA2AAF492F00DE4CE0 /* AthletesDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthletesDetailsCell.swift; sourceTree = "<group>"; };
+		24B6EACC2AAF593B00DE4CE0 /* AthletesResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthletesResult.swift; sourceTree = "<group>"; };
+		24B6EACE2AAF5EB900DE4CE0 /* AthletesMedalsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthletesMedalsCell.swift; sourceTree = "<group>"; };
+		24B6EAD02AAF64A300DE4CE0 /* MedalsTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedalsTitleCell.swift; sourceTree = "<group>"; };
+		24B6EAD22AAF66FE00DE4CE0 /* BioTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioTitleCell.swift; sourceTree = "<group>"; };
+		24B6EAD42AAF67D400DE4CE0 /* BioDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioDetailsCell.swift; sourceTree = "<group>"; };
+		24B6EAD62AAF6F9000DE4CE0 /* AthletesTabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthletesTabelCell.swift; sourceTree = "<group>"; };
+		24B6EAD82AAF6FD800DE4CE0 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		24B6EADA2AAF70C400DE4CE0 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		24B6EADC2AAF759600DE4CE0 /* AthletesCollectioViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthletesCollectioViewCell.swift; sourceTree = "<group>"; };
+		24B6EADE2AAF7A6C00DE4CE0 /* AthletesUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthletesUserModel.swift; sourceTree = "<group>"; };
+		24B6EAE02AAF87F700DE4CE0 /* GlobalSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalSettings.swift; sourceTree = "<group>"; };
+		24B6EAE22AB05F9800DE4CE0 /* AthletesListTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthletesListTitleTableViewCell.swift; sourceTree = "<group>"; };
+		40B466F53C6551E61078986E /* Pods-Olympic Athletes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympic Athletes.release.xcconfig"; path = "Target Support Files/Pods-Olympic Athletes/Pods-Olympic Athletes.release.xcconfig"; sourceTree = "<group>"; };
+		7339C6D12EB35F98C2782A9A /* Pods_Olympic_AthletesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Olympic_AthletesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC8AA3BCA026F2E518F1CC4 /* Pods-Olympic Athletes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympic Athletes.debug.xcconfig"; path = "Target Support Files/Pods-Olympic Athletes/Pods-Olympic Athletes.debug.xcconfig"; sourceTree = "<group>"; };
+		8E818FAFA65F401666EE1D25 /* Pods_Olympic_Athletes_Olympic_AthletesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Olympic_Athletes_Olympic_AthletesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF142A707B4F3ABFD8A1EEF /* Pods-Olympic Athletes-Olympic AthletesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympic Athletes-Olympic AthletesUITests.release.xcconfig"; path = "Target Support Files/Pods-Olympic Athletes-Olympic AthletesUITests/Pods-Olympic Athletes-Olympic AthletesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		92754E327AE0D19D7D1AFBF0 /* Pods-Olympic AthletesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympic AthletesTests.release.xcconfig"; path = "Target Support Files/Pods-Olympic AthletesTests/Pods-Olympic AthletesTests.release.xcconfig"; sourceTree = "<group>"; };
+		940B2D78D1A2ABCAC33F6B7D /* Pods-Olympic Athletes-Olympic AthletesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympic Athletes-Olympic AthletesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Olympic Athletes-Olympic AthletesUITests/Pods-Olympic Athletes-Olympic AthletesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1DD402A0770D8D7A79624C0 /* Pods-Olympic AthletesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympic AthletesTests.debug.xcconfig"; path = "Target Support Files/Pods-Olympic AthletesTests/Pods-Olympic AthletesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5985B7F8A1AC110B2C30A9 /* Pods_Olympic_Athletes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA45E1F895B1DA249ED5AEC0 /* Pods_Olympic_AthletesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B07A1512495A5A9E9740DA4 /* Pods_Olympic_Athletes_Olympic_AthletesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +155,8 @@
 				248E7EC82AAEF2D500DA4477 /* Olympic AthletesTests */,
 				248E7ED22AAEF2D500DA4477 /* Olympic AthletesUITests */,
 				248E7EB02AAEF2D300DA4477 /* Products */,
+				67592355F4F6BDC40911935D /* Pods */,
+				CBBB6F2EF65EB5912D3A3B40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +173,14 @@
 		248E7EB12AAEF2D300DA4477 /* Olympic Athletes */ = {
 			isa = PBXGroup;
 			children = (
-				248E7EB22AAEF2D300DA4477 /* AppDelegate.swift */,
-				248E7EB42AAEF2D300DA4477 /* SceneDelegate.swift */,
-				248E7EB62AAEF2D300DA4477 /* ViewController.swift */,
-				248E7EB82AAEF2D300DA4477 /* Main.storyboard */,
-				248E7EBB2AAEF2D500DA4477 /* Assets.xcassets */,
-				248E7EBD2AAEF2D500DA4477 /* LaunchScreen.storyboard */,
-				248E7EC02AAEF2D500DA4477 /* Info.plist */,
+				248E7F002AAEF88600DA4477 /* Views */,
+				248E7EF42AAEF4F300DA4477 /* TabelCell */,
+				248E7EF32AAEF4E500DA4477 /* Libraries */,
+				248E7EF22AAEF4D500DA4477 /* Supporting files */,
+				248E7EE52AAEF3EE00DA4477 /* Resources */,
+				248E7EE42AAEF3B000DA4477 /* Controllers */,
+				248E7EE32AAEF38200DA4477 /* Common */,
+				248E7EE22AAEF36A00DA4477 /* Utilities */,
 			);
 			path = "Olympic Athletes";
 			sourceTree = "<group>";
@@ -127,6 +202,198 @@
 			path = "Olympic AthletesUITests";
 			sourceTree = "<group>";
 		};
+		248E7EE22AAEF36A00DA4477 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				24B6EAE02AAF87F700DE4CE0 /* GlobalSettings.swift */,
+				248E7F032AAF002600DA4477 /* StringExtensions.swift */,
+				248E7EFC2AAEF5C000DA4477 /* ConstantClass.swift */,
+				248E7EFA2AAEF5B700DA4477 /* BaseAPI.swift */,
+				248E7EF82AAEF59F00DA4477 /* ConnectionCheck.swift */,
+				248E7EFE2AAEF74200DA4477 /* APIManager.swift */,
+				24B6EAC22AAF26A100DE4CE0 /* ImageExtension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		248E7EE32AAEF38200DA4477 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				248E7EB22AAEF2D300DA4477 /* AppDelegate.swift */,
+				248E7EB42AAEF2D300DA4477 /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		248E7EE42AAEF3B000DA4477 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24B6EABF2AAF1F2D00DE4CE0 /* AthletesDetails */,
+				24B6EAB92AAF024600DE4CE0 /* HomePage */,
+				248E7EF52AAEF50F00DA4477 /* SplashScreen */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		248E7EE52AAEF3EE00DA4477 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				248E7F012AAEF8FD00DA4477 /* LocalizableStringFile */,
+				248E7EBB2AAEF2D500DA4477 /* Assets.xcassets */,
+				248E7EE72AAEF43600DA4477 /* Fonts */,
+				248E7EE62AAEF41700DA4477 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		248E7EE62AAEF41700DA4477 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		248E7EE72AAEF43600DA4477 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				248E7EE92AAEF48A00DA4477 /* opensans_bold.ttf */,
+				248E7EEB2AAEF48A00DA4477 /* opensans_bolditalic.ttf */,
+				248E7EEE2AAEF48A00DA4477 /* opensans_italic.ttf */,
+				248E7EED2AAEF48A00DA4477 /* opensans_light.ttf */,
+				248E7EEF2AAEF48A00DA4477 /* opensans_lightitalic.ttf */,
+				248E7EEC2AAEF48A00DA4477 /* opensans_regular.ttf */,
+				248E7EF12AAEF48A00DA4477 /* opensans_semibold.ttf */,
+				248E7EEA2AAEF48A00DA4477 /* opensans_semibolditalic.ttf */,
+				248E7EF02AAEF48A00DA4477 /* OpenSans-ExtraBold.ttf */,
+				248E7EE82AAEF48A00DA4477 /* OpenSans-ExtraBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		248E7EF22AAEF4D500DA4477 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				248E7EC02AAEF2D500DA4477 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		248E7EF32AAEF4E500DA4477 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		248E7EF42AAEF4F300DA4477 /* TabelCell */ = {
+			isa = PBXGroup;
+			children = (
+				24B6EACA2AAF492F00DE4CE0 /* AthletesDetailsCell.swift */,
+				24B6EACE2AAF5EB900DE4CE0 /* AthletesMedalsCell.swift */,
+				24B6EAD02AAF64A300DE4CE0 /* MedalsTitleCell.swift */,
+				24B6EAD22AAF66FE00DE4CE0 /* BioTitleCell.swift */,
+				24B6EAD42AAF67D400DE4CE0 /* BioDetailsCell.swift */,
+				24B6EAD62AAF6F9000DE4CE0 /* AthletesTabelCell.swift */,
+				24B6EADC2AAF759600DE4CE0 /* AthletesCollectioViewCell.swift */,
+				24B6EAE22AB05F9800DE4CE0 /* AthletesListTitleTableViewCell.swift */,
+			);
+			path = TabelCell;
+			sourceTree = "<group>";
+		};
+		248E7EF52AAEF50F00DA4477 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				248E7EF62AAEF54900DA4477 /* SplashScreen.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		248E7F002AAEF88600DA4477 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				248E7EB82AAEF2D300DA4477 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24B6EAB92AAF024600DE4CE0 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				24B6EABE2AAF1C9D00DE4CE0 /* Model */,
+				24B6EABD2AAF1C9300DE4CE0 /* ViewModel */,
+				24B6EABA2AAF027700DE4CE0 /* HomePage.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		24B6EABD2AAF1C9300DE4CE0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				24B6EAD82AAF6FD800DE4CE0 /* HomePageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		24B6EABE2AAF1C9D00DE4CE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24B6EADA2AAF70C400DE4CE0 /* GameModel.swift */,
+				24B6EADE2AAF7A6C00DE4CE0 /* AthletesUserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24B6EABF2AAF1F2D00DE4CE0 /* AthletesDetails */ = {
+			isa = PBXGroup;
+			children = (
+				24B6EAC72AAF357300DE4CE0 /* ViewModel */,
+				24B6EAC42AAF326700DE4CE0 /* Model */,
+				24B6EAC02AAF1F4D00DE4CE0 /* AthletesDetails.swift */,
+			);
+			path = AthletesDetails;
+			sourceTree = "<group>";
+		};
+		24B6EAC42AAF326700DE4CE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24B6EACC2AAF593B00DE4CE0 /* AthletesResult.swift */,
+				24B6EAC52AAF327600DE4CE0 /* AthletesDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24B6EAC72AAF357300DE4CE0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				24B6EAC82AAF358400DE4CE0 /* AthletesDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		67592355F4F6BDC40911935D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DC8AA3BCA026F2E518F1CC4 /* Pods-Olympic Athletes.debug.xcconfig */,
+				40B466F53C6551E61078986E /* Pods-Olympic Athletes.release.xcconfig */,
+				940B2D78D1A2ABCAC33F6B7D /* Pods-Olympic Athletes-Olympic AthletesUITests.debug.xcconfig */,
+				8FF142A707B4F3ABFD8A1EEF /* Pods-Olympic Athletes-Olympic AthletesUITests.release.xcconfig */,
+				E1DD402A0770D8D7A79624C0 /* Pods-Olympic AthletesTests.debug.xcconfig */,
+				92754E327AE0D19D7D1AFBF0 /* Pods-Olympic AthletesTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CBBB6F2EF65EB5912D3A3B40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FD8AE05724CA66FD29812CB /* Pods_Olympic_Athletes.framework */,
+				8E818FAFA65F401666EE1D25 /* Pods_Olympic_Athletes_Olympic_AthletesUITests.framework */,
+				7339C6D12EB35F98C2782A9A /* Pods_Olympic_AthletesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +401,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 248E7ED92AAEF2D500DA4477 /* Build configuration list for PBXNativeTarget "Olympic Athletes" */;
 			buildPhases = (
+				4B99043013E27FF45251913C /* [CP] Check Pods Manifest.lock */,
 				248E7EAB2AAEF2D300DA4477 /* Sources */,
 				248E7EAC2AAEF2D300DA4477 /* Frameworks */,
 				248E7EAD2AAEF2D300DA4477 /* Resources */,
+				BB9BC87C07334CF93F367DFA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +420,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 248E7EDC2AAEF2D500DA4477 /* Build configuration list for PBXNativeTarget "Olympic AthletesTests" */;
 			buildPhases = (
+				72EAB3C0D4B362C7FE480DB5 /* [CP] Check Pods Manifest.lock */,
 				248E7EC12AAEF2D500DA4477 /* Sources */,
 				248E7EC22AAEF2D500DA4477 /* Frameworks */,
 				248E7EC32AAEF2D500DA4477 /* Resources */,
@@ -169,9 +439,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 248E7EDF2AAEF2D500DA4477 /* Build configuration list for PBXNativeTarget "Olympic AthletesUITests" */;
 			buildPhases = (
+				9D3541D25607925966BCDBFB /* [CP] Check Pods Manifest.lock */,
 				248E7ECB2AAEF2D500DA4477 /* Sources */,
 				248E7ECC2AAEF2D500DA4477 /* Frameworks */,
 				248E7ECD2AAEF2D500DA4477 /* Resources */,
+				18F00889FDAEF99F7ADFEF56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,11 +480,11 @@
 			};
 			buildConfigurationList = 248E7EAA2AAEF2D300DA4477 /* Build configuration list for PBXProject "Olympic Athletes" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = "en-IN";
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				"en-IN",
 			);
 			mainGroup = 248E7EA62AAEF2D300DA4477;
 			productRefGroup = 248E7EB02AAEF2D300DA4477 /* Products */;
@@ -231,8 +503,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				248E7EBF2AAEF2D500DA4477 /* LaunchScreen.storyboard in Resources */,
 				248E7EBC2AAEF2D500DA4477 /* Assets.xcassets in Resources */,
+				248E7F022AAEF8FD00DA4477 /* LocalizableStringFile in Resources */,
 				248E7EBA2AAEF2D300DA4477 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +525,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18F00889FDAEF99F7ADFEF56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Olympic Athletes-Olympic AthletesUITests/Pods-Olympic Athletes-Olympic AthletesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Olympic Athletes-Olympic AthletesUITests/Pods-Olympic Athletes-Olympic AthletesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Olympic Athletes-Olympic AthletesUITests/Pods-Olympic Athletes-Olympic AthletesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B99043013E27FF45251913C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Olympic Athletes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72EAB3C0D4B362C7FE480DB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Olympic AthletesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D3541D25607925966BCDBFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Olympic Athletes-Olympic AthletesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB9BC87C07334CF93F367DFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Olympic Athletes/Pods-Olympic Athletes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Olympic Athletes/Pods-Olympic Athletes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Olympic Athletes/Pods-Olympic Athletes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		248E7EAB2AAEF2D300DA4477 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				248E7EB72AAEF2D300DA4477 /* ViewController.swift in Sources */,
+				24B6EACB2AAF492F00DE4CE0 /* AthletesDetailsCell.swift in Sources */,
+				24B6EAD32AAF66FE00DE4CE0 /* BioTitleCell.swift in Sources */,
+				248E7F042AAF002600DA4477 /* StringExtensions.swift in Sources */,
+				24B6EABB2AAF027700DE4CE0 /* HomePage.swift in Sources */,
+				24B6EADD2AAF759600DE4CE0 /* AthletesCollectioViewCell.swift in Sources */,
+				24B6EAD12AAF64A300DE4CE0 /* MedalsTitleCell.swift in Sources */,
+				24B6EACF2AAF5EB900DE4CE0 /* AthletesMedalsCell.swift in Sources */,
+				24B6EAC62AAF327600DE4CE0 /* AthletesDetailsModel.swift in Sources */,
+				24B6EAE12AAF87F700DE4CE0 /* GlobalSettings.swift in Sources */,
+				24B6EACD2AAF593B00DE4CE0 /* AthletesResult.swift in Sources */,
+				24B6EAD72AAF6F9000DE4CE0 /* AthletesTabelCell.swift in Sources */,
+				248E7EFF2AAEF74200DA4477 /* APIManager.swift in Sources */,
+				24B6EAC92AAF358400DE4CE0 /* AthletesDetailsViewModel.swift in Sources */,
+				24B6EAD52AAF67D400DE4CE0 /* BioDetailsCell.swift in Sources */,
+				248E7EF72AAEF54900DA4477 /* SplashScreen.swift in Sources */,
 				248E7EB32AAEF2D300DA4477 /* AppDelegate.swift in Sources */,
+				248E7EFB2AAEF5B700DA4477 /* BaseAPI.swift in Sources */,
+				24B6EAC12AAF1F4D00DE4CE0 /* AthletesDetails.swift in Sources */,
+				24B6EAE32AB05F9800DE4CE0 /* AthletesListTitleTableViewCell.swift in Sources */,
+				24B6EAD92AAF6FD800DE4CE0 /* HomePageViewModel.swift in Sources */,
 				248E7EB52AAEF2D300DA4477 /* SceneDelegate.swift in Sources */,
+				248E7EF92AAEF59F00DA4477 /* ConnectionCheck.swift in Sources */,
+				24B6EADF2AAF7A6C00DE4CE0 /* AthletesUserModel.swift in Sources */,
+				24B6EAC32AAF26A100DE4CE0 /* ImageExtension.swift in Sources */,
+				248E7EFD2AAEF5C000DA4477 /* ConstantClass.swift in Sources */,
+				24B6EADB2AAF70C400DE4CE0 /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,16 +699,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				248E7EB92AAEF2D300DA4477 /* Base */,
+				24B6EABC2AAF1B6E00DE4CE0 /* en-IN */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		248E7EBD2AAEF2D500DA4477 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				248E7EBE2AAEF2D500DA4477 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,6 +711,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -380,6 +772,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -432,15 +825,16 @@
 		};
 		248E7EDA2AAEF2D500DA4477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC8AA3BCA026F2E518F1CC4 /* Pods-Olympic Athletes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Olympic Athletes/Info.plist";
+				INFOPLIST_FILE = "Olympic Athletes/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -459,15 +853,16 @@
 		};
 		248E7EDB2AAEF2D500DA4477 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B466F53C6551E61078986E /* Pods-Olympic Athletes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Olympic Athletes/Info.plist";
+				INFOPLIST_FILE = "Olympic Athletes/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -486,6 +881,7 @@
 		};
 		248E7EDD2AAEF2D500DA4477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1DD402A0770D8D7A79624C0 /* Pods-Olympic AthletesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +901,7 @@
 		};
 		248E7EDE2AAEF2D500DA4477 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92754E327AE0D19D7D1AFBF0 /* Pods-Olympic AthletesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +921,7 @@
 		};
 		248E7EE02AAEF2D500DA4477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940B2D78D1A2ABCAC33F6B7D /* Pods-Olympic Athletes-Olympic AthletesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +939,7 @@
 		};
 		248E7EE12AAEF2D500DA4477 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF142A707B4F3ABFD8A1EEF /* Pods-Olympic Athletes-Olympic AthletesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
